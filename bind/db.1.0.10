@@ -16,5 +16,5 @@ $TTL	604800
 10   IN  PTR    cliente2.patito.local.
 
 
-# La primera linea se queda igual, todos son PTR y de igual manera son 4 campos que
-# se deben llenar en cada linea
+; La primera linea se queda igual, todos son PTR y de igual manera son 4 campos que
+; se deben llenar en cada linea

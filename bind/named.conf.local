@@ -8,7 +8,7 @@
 
 // ZONA DIRECTA DEL DOMINIO PATITO.LOCAL
 
-zone "patito.local" {
+zone "patito.local." {
     type master;
     file "/etc/bind/db.patito.local";
 };
@@ -17,5 +17,5 @@ zone "patito.local" {
 
 zone "1.0.10.in-addr.arpa" {
     type master;
-    file "etc/bind/db.1.0.10";
+    file "/etc/bind/db.1.0.10";
 };
