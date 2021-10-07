@@ -1,0 +1,20 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	servidor.patito.local. root.patito.local. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+;
+     IN  NS     servidor.patito.local.
+20   IN  PTR    servidor.patito.local.
+10   IN  PTR    cliente1.patito.local.
+15   IN  PTR    cliente2.patito.local.
+
+
+# La primera linea se queda igual, todos son PTR y de igual manera son 4 campos que
+# se deben llenar en cada linea

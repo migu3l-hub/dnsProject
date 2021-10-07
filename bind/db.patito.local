@@ -1,0 +1,14 @@
+$TTL	604800
+@	IN	SOA	servidor.patito.local. root.patito.local. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+;
+            IN  NS  servidor.patito.local.
+servidor    IN  A   10.0.2.20
+cliente1    IN  A   10.0.2.10
+cliente2.patito.local    IN  A  10.0.2.15
+server      IN  CNAME   servidor
