@@ -15,7 +15,7 @@ zone "patito.local" {
 
 // ZONA INVERSA DEL DOMINIO PATITO.LOCAL
 
-zone "2.0.10.in-addr.arpa" {
+zone "1.0.10.in-addr.arpa" {
     type master;
-    file "etc/bind/db.2.0.10"
+    file "etc/bind/db.1.0.10";
 };

@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   bind9:
-    image: internetsystemsconsortium/bind9:9.11
+    image: internetsystemsconsortium/bind9:9.16
     restart: always
     container_name: my-dns
     ports:
